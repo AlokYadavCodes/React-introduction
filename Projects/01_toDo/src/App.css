@@ -1,0 +1,25 @@
+.to-do-container{
+    text-align: center;
+}
+h1{
+    font-weight: 700;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+.task-container{
+    margin: 20px 30px;
+    text-align: left;
+}
+
+.row{
+    margin-top: 10px;
+}
+
+.btn{
+    width: 80px;
+}
+
+.delete-btn-container{
+    text-align: center;
+}
