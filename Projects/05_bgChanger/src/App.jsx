@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <div className='w-full h-screen' style={{backgroundColor: color}}>
+      <div className='w-full h-screen transition-colors' style={{backgroundColor: color}}>
         <div className='bg-white h-14 mx-16 rounded-xl flex justify-between items-center gap-4 overflow-scroll border fixed bottom-20'>
           {
             ColorArr.map((buttonColor)=>(
