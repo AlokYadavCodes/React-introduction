@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Password Generator</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
+
+
+<!-- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Copy to Clipboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      text-align: center;
+    }
+
+    input {
+      padding: 10px;
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+
+    .copy-container {
+      position: relative;
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    .copy-btn {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-left: 10px;
+    }
+
+    .copy-btn:hover {
+      background-color: #45a049;
+    }
+
+    /* Tooltip text */
+    .tooltip {
+      /* visibility: hidden; */
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 5px;
+      padding: 5px 10px;
+      position: absolute;
+      bottom: 125%; /* Show above the button */
+      left: 50%;
+      transform: translateX(-50%);
+      white-space: nowrap;
+      z-index: 1;
+      /* opacity: 0; */
+      transition: opacity 0.3s;
+    }
+
+    .copy-container:hover .tooltip {
+      visibility: visible;
+      opacity: 1;
+    }
+
+    /* Tooltip arrow */
+    .tooltip::after {
+      content: "";
+      position: absolute;
+      top: 100%; /* Bottom of the tooltip */
+      /* left: 50%; */
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: black transparent transparent transparent;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <input type="text" id="textInput" placeholder="Enter some text">
+    
+    <div class="copy-container">
+      <button class="copy-btn" onclick="copyToClipboard()">Copy</button>
+      <span class="tooltip" id="tooltipText">Copy to clipboard</span>
+    </div>
+  </div>
+
+  <script>
+    function copyToClipboard() {
+      // Get the input field
+      var input = document.getElementById('textInput');
+      // Copy the text inside the input field to the clipboard
+      input.select();
+      input.setSelectionRange(0, 99999); // For mobile devices
+      navigator.clipboard.writeText(input.value);
+
+      // Get the tooltip text and temporarily change it to "Copied!"
+      var tooltip = document.getElementById('tooltipText');
+      tooltip.textContent = "Copied!";
+      
+      // Reset the tooltip text after 2 seconds
+      setTimeout(function() {
+        tooltip.textContent = "Copy to clipboard";
+      }, 2000);
+    }
+  </script>
+
+</body>
+</html>
+ -->
